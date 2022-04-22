@@ -140,12 +140,12 @@ Regular bubble sort runs iterations which are equal to the size of the array irr
 
 ### Complexity in Detail
 * Bubble Sort compares the adjacent elements.	        
-      Cycle               Number of Comparisons  
-      1st	                (n-1)
-      2nd                       (n-2)
-      3rd                       (n-3)
-     .......                   .......
-     last                        1
+              Cycle               Number of Comparisons  
+               1st	                    (n-1)
+               2nd                       (n-2)
+               3rd                       (n-3)
+              .......                   .......
+              last                         1
      
 * Hence, the number of comparisons is
 
