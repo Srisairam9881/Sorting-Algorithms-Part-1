@@ -1,8 +1,8 @@
 # Sorting-Algorithms-Part-1
 ### Topics
 * 1.Selection Sort Algorithm with C++ Code | Sorting Algorithms
-* 2.Insertion Sort Algorithm with C++ Code | Sorting Algorithms
-* 3.Bubble Sort Algorithm with C++ Code | Sorting Algorithms
+* 2.Bubble Sort Algorithm with C++ Code | Sorting Algorithms
+* 3.Insertion Sort Algorithm with C++ Code | Sorting Algorithms
 * 4.Optimized Bubble Sort Algorithm with Code | Sorting Algorithms
 ##
 
