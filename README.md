@@ -112,6 +112,12 @@ Regular bubble sort runs iterations which are equal to the size of the array irr
 * Whenever there is no swapping in a particular iteration, the flag is set to TRUE
 * At the end of every iteration, this flag variable is checked. If value is true, it means swapping happened & hence the list isn’t sorted completely so next iteration is allowed. If value is false, it means swapping never happened, hence the list is already sorted & there is no point in further iterations hence exit algorithm.
 
+
+
+![optimized-bubble-sort-featured-image](https://user-images.githubusercontent.com/80576654/164599703-174ddcd0-b646-4bd0-8cc5-c06df74f727b.jpg)
+
+
+
 #### Working –
 * Step 1 – Starting with the first element(index = 0), compare the current element with the next element of the array. Set flag = false
 * Step 2 – If the current element is greater than the next element of the array, swap them. Set flag = true
