@@ -101,6 +101,34 @@ Space complexity is O(1) because an extra variable temp is used.
       2.  end loop // inner loop
     3.end loop // outer loop
 ##
+
+# 3.Optimized Bubble Sort Algorithm with C++ Code | Sorting Algorithms | Data Structures & Algorithms
+### Optimized Bubble Sort –
+* Optimized bubble sort is basically a smarter version of bubble sort algorithm. Hence the algorithm is same with a mechanism to determine whether the list/array DS is sorted or not after every iteration
+* This ensures that the algorithm only runs till the array/list is sorted.
+Regular bubble sort runs iterations which are equal to the size of the array irrespective of whether the array is sorted before those number of iterations or not.
+* In optimized bubble sort, we have a flag variable that keeps track of whether the list is completely sorted or not.
+* In optimized bubble sort, whenever there is a swapping in any iteration, it means that the array/list is still not sorted & hence the flag is set to FALSE.
+* Whenever there is no swapping in a particular iteration, the flag is set to TRUE
+* At the end of every iteration, this flag variable is checked. If value is true, it means swapping happened & hence the list isn’t sorted completely so next iteration is allowed. If value is false, it means swapping never happened, hence the list is already sorted & there is no point in further iterations hence exit algorithm.
+
+#### Working –
+* Step 1 – Starting with the first element(index = 0), compare the current element with the next element of the array. Set flag = false
+* Step 2 – If the current element is greater than the next element of the array, swap them. Set flag = true
+* Step 3 – If the current element is less than the next element, move to the next element.
+* Step 4 – At end of iteration check flag, if true, continue iteration else exit iterations.
+* Step 4 – Repeat Step 1 till the list is sorted.
+#### Algorithm –
+     1.declare variables – i, j
+     2.loop : i = 0 to n – 1 // outer looploop : j = 0 to n -i- 1 //
+     3.set flag = false
+           1.inner loopif ( a[j]>a[j+1] ) then
+                   1.set flag = true
+                   2. swap a[j] & a[j+1]
+           2.end loop // inner loop
+           3.if flag == false then
+             1.EXIT
+     4.end loop // outer loop
 ### Bubble Sort Complexity
 #### Time Complexity	 
 * Best: O(n)
@@ -114,7 +142,7 @@ Space complexity is O(1) because an extra variable temp is used.
 * Bubble Sort compares the adjacent elements.
 	        
     Cycle               Number of Comparisons  
-    1st	                (n-1)
+    1st	                      (n-1)
     2nd                       (n-2)
     3rd                       (n-3)
     .......                   .......
