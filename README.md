@@ -146,7 +146,7 @@ Regular bubble sort runs iterations which are equal to the size of the array irr
         2nd                       (n-2)
         3rd                       (n-3)
       .......                    .......  
-       last                       1
+       last                         1
      
 * Hence, the number of comparisons is
 
