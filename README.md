@@ -66,13 +66,14 @@ Space complexity is O(1) because an extra variable temp is used.
 ##
 
 ### Selection Sort Applications
-    The selection sort is used when
-
+#### The selection sort is used when
 * a small list is to be sorted
 * cost of swapping does not matter
 * checking of all the elements is compulsory
 * cost of writing to a memory matters like in flash memory (number of writes/swaps is O(n) as compared to O(n2) of bubble sort)
 ##
+
+
 
 # 2.Bubble Sort Algorithm with C++ Code | Sorting Algorithms | Data Structures & Algorithms
 
@@ -100,6 +101,8 @@ Space complexity is O(1) because an extra variable temp is used.
                1.swap a[j] & a[j+1]
       2.  end loop // inner loop
     3.end loop // outer loop
+
+
 
 # 3.Optimized Bubble Sort Algorithm with C++ Code | Sorting Algorithms | Data Structures & Algorithms
 ### Optimized Bubble Sort –
@@ -135,6 +138,9 @@ Regular bubble sort runs iterations which are equal to the size of the array irr
              1.EXIT
      4.end loop // outer loop
 ##
+
+
+
 
 ### Bubble Sort Complexity
 #### Time Complexity	 
@@ -175,3 +181,16 @@ Regular bubble sort runs iterations which are equal to the size of the array irr
 * Space complexity is O(1) because an extra variable is used for swapping.
 * In the optimized bubble sort algorithm, two extra variables are used. Hence, the space complexity will be O(2).
 ##
+
+### Bubble Sort Applications
+#### Bubble sort is used if
+* complexity does not matter
+* short and simple code is preferred
+##
+
+
+
+
+
+
+
