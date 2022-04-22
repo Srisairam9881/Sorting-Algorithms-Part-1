@@ -15,3 +15,15 @@
 ##
 ![selection-sorting-featured-image](https://user-images.githubusercontent.com/80576654/164586593-0b3a149c-2f01-43f3-b043-7d5f8f0e09e5.jpg)
 ##
+
+### Selection Sort Algorithm –
+       for i=0 to n-1   // outer for loop
+           min = i     // set min value to i
+       for j=i+1 to n   // inner loop
+          if arr[j] less than arr[min] then   // check which element is smaller
+             min=j   // store index of smallest element to min
+      end for       // inner loop
+     if min not equal to i then   // swap if min does not match to i
+          swap arr[min] with arr[i]  // swapping
+    end for   // outer for loop
+##
