@@ -33,16 +33,23 @@
           swap arr[min] with arr[i]  // swapping
     end for   // outer for loop
 
+### Selection Sort Complexity
+    Time                  Complexity	
+    Best 	              O(n^2)   
+    Worst	              O(n^2)
+    Average	              O(n^2)
+    Space Complexity 	O(1)
+    Stability	              No
 
-
-
-  Time             Complexity	
-  Best 	       O(n^2)   
-  Worst	       O(n^2)
-  Average	       O(n^2)
-  Space Complexity 	O(1)
-  Stability	       No
-
+### Complexity in Detail
+    Cycle          Number of Comparison
+    
+    1st	        (n-1)
+    2nd	        (n-2)
+    3rd	        (n-3)
+    ...	         ...
+    last	          1
+* Number of comparisons: (n - 1) + (n - 2) + (n - 3) + ..... + 1 = n(n - 1) / 2 nearly equals to n2.
 ##### Complexity = O(n2)
 
 Also, we can analyze the complexity by simply observing the number of loops. There are 2 loops so the complexity is n*n = n2.
@@ -60,16 +67,6 @@ Also, we can analyze the complexity by simply observing the number of loops. The
 
 #### 2.Space Complexity:
 * Space complexity is O(1) because an extra variable temp is used.
-
-### 
-    Cycle          Number of Comparison
-    
-    1st	        (n-1)
-    2nd	        (n-2)
-    3rd	        (n-3)
-    ...	         ...
-    last	          1
-* Number of comparisons: (n - 1) + (n - 2) + (n - 3) + ..... + 1 = n(n - 1) / 2 nearly equals to n2.
 
 ### Selection Sort Applications
 #### The selection sort is used when
