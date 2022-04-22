@@ -2,11 +2,11 @@
 ### Topics
 * 1.Selection Sort Algorithm with C++ Code | Sorting Algorithms
 * 2.Bubble Sort Algorithm with C++ Code | Sorting Algorithms
-* 3.Insertion Sort Algorithm with C++ Code | Sorting Algorithms
-* 4.Optimized Bubble Sort Algorithm with Code | Sorting Algorithms
+* 3.Optimized Bubble Sort Algorithm with C++ Code | Sorting Algorithms
+* 4.Insertion Sort Algorithm with Code | Sorting Algorithms
 ##
 
-## 1.Selection Sort Algorithm with C++ Code | Sorting Algorithms | Data Structures & Algorithms
+# 1.Selection Sort Algorithm with C++ Code | Sorting Algorithms | Data Structures & Algorithms
 #### Selection Sort :-
 * Selection sort is a sorting algorithm, specifically an in-place comparison sort.
 * It has O(n^2) time complexity, making it inefficient on large lists.
@@ -74,7 +74,7 @@ Space complexity is O(1) because an extra variable temp is used.
 * cost of writing to a memory matters like in flash memory (number of writes/swaps is O(n) as compared to O(n2) of bubble sort)
 ##
 
-## 2.Bubble Sort Algorithm with C++ Code | Sorting Algorithms | Data Structures & Algorithms
+# 2.Bubble Sort Algorithm with C++ Code | Sorting Algorithms | Data Structures & Algorithms
 
 #### Bubble Sort :–
 * Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order.
@@ -104,8 +104,8 @@ Space complexity is O(1) because an extra variable temp is used.
 ### Bubble Sort Complexity
 #### Time Complexity	 
 * Best: O(n)
-* Worst: O(n^2
-* Average: O(n2)
+* Worst: O(n^2)
+* Average: O(n^2)
 * Space Complexit: O(1)
 * Stability: Yes
 ##
@@ -120,12 +120,23 @@ Space complexity is O(1) because an extra variable temp is used.
     .......                   .......
     last                        1
     
-* nce, the number of comparisons is
+* Hence, the number of comparisons is
 
 * (n-1) + (n-2) + (n-3) +.....+ 1 = n(n-1)/2
-* nearly equals to n2
+* nearly equals to n^2
 
 * Hence, Complexity: O(n2)
 
 * Also, if we observe the code, bubble sort requires two loops. Hence, the complexity is n*n = n^2
+
+### 1. Time Complexities
+#### Worst Case Complexity: O(n2)
+* If we want to sort in ascending order and the array is in descending order then the worst case occurs.
+#### Best Case Complexity: O(n)
+* If the array is already sorted, then there is no need for sorting.
+#### Average Case Complexity: O(n2)
+* It occurs when the elements of the array are in jumbled order (neither ascending nor descending).
+### 2. Space Complexity
+* Space complexity is O(1) because an extra variable is used for swapping.
+* In the optimized bubble sort algorithm, two extra variables are used. Hence, the space complexity will be O(2).
 ##
