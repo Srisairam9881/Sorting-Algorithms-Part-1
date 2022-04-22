@@ -7,7 +7,7 @@
 ##
 
 # 1.Selection Sort Algorithm with C++ Code | Sorting Algorithms | Data Structures & Algorithms
-### Selection Sort :-
+## Selection Sort :-
 * Selection sort is a sorting algorithm, specifically an in-place comparison sort.
 * It has O(n^2) time complexity, making it inefficient on large lists.
 * The algorithm divides the input list into two parts: the sublist of items already sorted, which is built up from left to right at the front (left) of the list, and the * sublist of items remaining to be sorted that occupy the rest of the list.
@@ -22,7 +22,7 @@
 
 
 
-### Selection Sort Algorithm –
+## Selection Sort Algorithm –
        for i=0 to n-1   // outer for loop
            min = i     // set min value to i
        for j=i+1 to n   // inner loop
@@ -33,7 +33,7 @@
           swap arr[min] with arr[i]  // swapping
     end for   // outer for loop
 
-### Selection Sort Complexity
+## Selection Sort Complexity
     Time                  Complexity	
     Best 	              O(n^2)   
     Worst	              O(n^2)
@@ -41,7 +41,7 @@
     Space Complexity 	O(1)
     Stability	              No
 
-### Complexity in Detail
+## Complexity in Detail
     Cycle          Number of Comparison
     
     1st	        (n-1)
@@ -50,25 +50,25 @@
     ...	         ...
     last	          1
 * Number of comparisons: (n - 1) + (n - 2) + (n - 3) + ..... + 1 = n(n - 1) / 2 nearly equals to n2.
-##### Complexity = O(n2)
+#### Complexity = O(n2)
 
 Also, we can analyze the complexity by simply observing the number of loops. There are 2 loops so the complexity is n*n = n2.
 
-#### 1.Time Complexities:
+## 1.Time Complexities:
 
-##### a.Worst Case Complexity: O(n2)
+#### a.Worst Case Complexity: O(n2)
 * If we want to sort in ascending order and the array is in descending order then, the worst case occurs.
-##### b.Best Case Complexity: O(n2)
+#### b.Best Case Complexity: O(n2)
 * It occurs when the array is already sorted
-##### c.Average Case Complexity: O(n2)
+#### c.Average Case Complexity: O(n2)
 * It occurs when the elements of the array are in jumbled order (neither ascending nor descending).
 
 #### The time complexity of the selection sort is the same in all cases. At every step, you have to find the minimum element and put it in the right place. The minimum      element is not known until the end of the array is not reached.
 
-#### 2.Space Complexity:
+## 2.Space Complexity:
 * Space complexity is O(1) because an extra variable temp is used.
 
-### Selection Sort Applications
+## Selection Sort Applications
 #### The selection sort is used when
 * a small list is to be sorted
 * cost of swapping does not matter
@@ -80,7 +80,7 @@ Also, we can analyze the complexity by simply observing the number of loops. The
 
 # 2.Bubble Sort Algorithm with C++ Code | Sorting Algorithms | Data Structures & Algorithms
 
-### Bubble Sort :–
+## Bubble Sort :–
 * Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order.
 * This algorithm is suitable for small data sets
 * Its average and worst case complexity are of (n^2) where n is the number of items.
@@ -94,14 +94,14 @@ Also, we can analyze the complexity by simply observing the number of loops. The
 
 
 
-#### Working –
+## Working –
 * Step 1 – Starting with the first element(index = 0), compare the current element with the next element of the array.
 * Step 2 – If the current element is greater than the next element of the array, swap them.
 * Step 3 – If the current element is less than the next element, move to the next element.
 * Step 4 – Repeat Step 1 till the list is sorted.
 
 
-### Bubble Sort Algorithm –
+## Bubble Sort Algorithm –
     1.declare variables – i, j
     2.loop : i = 0 to n – 1 // outer loop
       1.loop : j = 0 to n -i- 1 // inner loop
@@ -113,7 +113,7 @@ Also, we can analyze the complexity by simply observing the number of loops. The
 
 
 # 3.Optimized Bubble Sort Algorithm with C++ Code | Sorting Algorithms | Data Structures & Algorithms
-### Optimized Bubble Sort –
+## Optimized Bubble Sort –
 * Optimized bubble sort is basically a smarter version of bubble sort algorithm. Hence the algorithm is same with a mechanism to determine whether the list/array DS is sorted or not after every iteration
 * This ensures that the algorithm only runs till the array/list is sorted.
 Regular bubble sort runs iterations which are equal to the size of the array irrespective of whether the array is sorted before those number of iterations or not.
@@ -128,13 +128,13 @@ Regular bubble sort runs iterations which are equal to the size of the array irr
 
 
 
-#### Working –
+## Working –
 * Step 1 – Starting with the first element(index = 0), compare the current element with the next element of the array. Set flag = false
 * Step 2 – If the current element is greater than the next element of the array, swap them. Set flag = true
 * Step 3 – If the current element is less than the next element, move to the next element.
 * Step 4 – At end of iteration check flag, if true, continue iteration else exit iterations.
 * Step 4 – Repeat Step 1 till the list is sorted.
-#### Algorithm –
+## Algorithm –
      1.declare variables – i, j
      2.loop : i = 0 to n – 1 // outer looploop : j = 0 to n -i- 1 //
      3.set flag = false
@@ -146,7 +146,7 @@ Regular bubble sort runs iterations which are equal to the size of the array irr
              1.EXIT
      4.end loop // outer loop
 
-### Bubble Sort Complexity
+## Bubble Sort Complexity
     Time            Complexity	 
     Best              O(n)
     Worst             O(n^2)
@@ -155,7 +155,7 @@ Regular bubble sort runs iterations which are equal to the size of the array irr
     Stability         Yes
 
 
-### Complexity in Detail
+## Complexity in Detail
 * Bubble Sort compares the adjacent elements.	        
 
 *       Cycle               Number of Comparisons  
@@ -174,26 +174,26 @@ Regular bubble sort runs iterations which are equal to the size of the array irr
 
 * Also, if we observe the code, bubble sort requires two loops. Hence, the complexity is n*n = n^2
 
-### 1. Time Complexities
+## 1. Time Complexities
 #### a.Worst Case Complexity: O(n2)
 * If we want to sort in ascending order and the array is in descending order then the worst case occurs.
 #### b.Best Case Complexity: O(n)
 * If the array is already sorted, then there is no need for sorting.
 #### c.Average Case Complexity: O(n2)
 * It occurs when the elements of the array are in jumbled order (neither ascending nor descending).
-### 2. Space Complexity
+## 2. Space Complexity
 * Space complexity is O(1) because an extra variable is used for swapping.
 * In the optimized bubble sort algorithm, two extra variables are used. Hence, the space complexity will be O(2).
 
 
-### Bubble Sort Applications
+## Bubble Sort Applications
 #### Bubble sort is used if
 * complexity does not matter
 * short and simple code is preferred
 ##
 
 # 4.Insertion Sort Algorithm with C++ Code | Sorting Algorithms | Data Structures & Algorithms
-### Insertion Sort :–
+## Insertion Sort :–
 * Insertion sort is a simple sorting algorithm that works the way we sort playing cards in our hands.
 * Insertion sort is a simple sorting algorithm that builds the final sorted array (or list) one item at a time.
 * Time Complexity: O(n*2)
@@ -206,7 +206,7 @@ Regular bubble sort runs iterations which are equal to the size of the array irr
 
 
 
-#### Working –
+## Working –
 null
 * Step 1 – Pick next element
 * Step 2 – Compare with all elements in the sorted sub-list on the left
@@ -215,7 +215,7 @@ null
 * Step 4 – Insert the value
 * Step 5 – Repeat until list is sorted
 
-#### Insertion Sort Algorithm :–
+## Insertion Sort Algorithm :–
      1.declare variables – i, key, j
      2.loop : i = 1 to n – 1 // outer loop
          1.key = a[i] //pick the next element
@@ -226,7 +226,7 @@ null
          4.end loop // outer loop
          5. arr[j+1] = key
      3.end loop // outer loop
- ### Insertion Sort Complexity
+ ## Insertion Sort Complexity
       Time                 Complexity	 
       Best	              O(n)
       Worst	              O(n^2)
@@ -234,4 +234,21 @@ null
       Space Complexity	O(1)
       Stability	       Yes
  
+## 1.Time Complexities
+
+#### Worst Case Complexity: O(n2)
+* Suppose, an array is in ascending order, and you want to sort it in descending order. In this case, worst case complexity occurs.
+* Each element has to be compared with each of the other elements so, for every nth element, (n-1) number of comparisons are made.
+* Thus, the total number of comparisons = n*(n-1) ~ n2
+#### Best Case Complexity: O(n)
+* When the array is already sorted, the outer loop runs for n number of times whereas the inner loop does not run at all. So, there are only n number of comparisons. Thus, complexity is linear.
+#### Average Case Complexity: O(n2)
+* It occurs when the elements of an array are in jumbled order (neither ascending nor descending).
+## 2.Space Complexity
+* Space complexity is O(1) because an extra variable key is used.
  
+## Insertion Sort Applications
+#### The insertion sort is used when:
+* The array is has a small number of elements
+* There are only a few elements left to be sorted
+##
