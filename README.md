@@ -36,12 +36,12 @@
 
 
 
-### Time Complexity	
-* Best:	       O(n^2)   
-* Worst:	       O(n^2)
-* Average:	       O(n^2)
-* Space Complexity:	O(1)
-* Stability:	       No
+  Time             Complexity	
+  Best 	       O(n^2)   
+  Worst	       O(n^2)
+  Average	       O(n^2)
+  Space Complexity 	O(1)
+  Stability	       No
 
 ##### Complexity = O(n2)
 
@@ -150,12 +150,12 @@ Regular bubble sort runs iterations which are equal to the size of the array irr
      4.end loop // outer loop
 
 ### Bubble Sort Complexity
-#### Time Complexity	 
-* Best: O(n)
-* Worst: O(n^2)
-* Average: O(n^2)
-* Space Complexit: O(1)
-* Stability: Yes
+    Time            Complexity	 
+    Best              O(n)
+    Worst             O(n^2)
+    Average           O(n^2)
+    Space Complexit   O(1)
+    Stability         Yes
 
 
 ### Complexity in Detail
@@ -229,6 +229,12 @@ null
          4.end loop // outer loop
          5. arr[j+1] = key
      3.end loop // outer loop
- ##
+ ### Insertion Sort Complexity
+      Time                 Complexity	 
+      Best	              O(n)
+      Worst	              O(n^2)
+      Average	              O(n^2)
+      Space Complexity	O(1)
+      Stability	       Yes
  
  
