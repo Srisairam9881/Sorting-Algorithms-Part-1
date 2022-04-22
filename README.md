@@ -7,7 +7,7 @@
 ##
 
 # 1.Selection Sort Algorithm with C++ Code | Sorting Algorithms | Data Structures & Algorithms
-#### Selection Sort :-
+### Selection Sort :-
 * Selection sort is a sorting algorithm, specifically an in-place comparison sort.
 * It has O(n^2) time complexity, making it inefficient on large lists.
 * The algorithm divides the input list into two parts: the sublist of items already sorted, which is built up from left to right at the front (left) of the list, and the * sublist of items remaining to be sorted that occupy the rest of the list.
@@ -83,7 +83,7 @@ Also, we can analyze the complexity by simply observing the number of loops. The
 
 # 2.Bubble Sort Algorithm with C++ Code | Sorting Algorithms | Data Structures & Algorithms
 
-#### Bubble Sort :–
+### Bubble Sort :–
 * Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order.
 * This algorithm is suitable for small data sets
 * Its average and worst case complexity are of (n^2) where n is the number of items.
