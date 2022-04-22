@@ -62,6 +62,7 @@ Space complexity is O(1) because an extra variable temp is used.
     3rd	        (n-3)
     ...	         ...
     last	          1
+* Number of comparisons: (n - 1) + (n - 2) + (n - 3) + ..... + 1 = n(n - 1) / 2 nearly equals to n2.
 ##
 
 ### Selection Sort Applications
@@ -73,5 +74,58 @@ Space complexity is O(1) because an extra variable temp is used.
 * cost of writing to a memory matters like in flash memory (number of writes/swaps is O(n) as compared to O(n2) of bubble sort)
 ##
 
+## 2.Bubble Sort Algorithm with C++ Code | Sorting Algorithms | Data Structures & Algorithms
 
+#### Bubble Sort :–
+* Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order.
+* This algorithm is suitable for small data sets
+* Its average and worst case complexity are of (n^2) where n is the number of items.
+* It is known as bubble sort, because with every complete iteration the largest element bubbles up towards the last place or the highest index just like a water bubble rises up to the water surface.
+##
+![bubble-sort-sorting-algorithm](https://user-images.githubusercontent.com/80576654/164590094-6d1d143f-e342-4153-9961-ec8c8154896c.jpg)
+##
 
+#### Working –
+* Step 1 – Starting with the first element(index = 0), compare the current element with the next element of the array.
+* Step 2 – If the current element is greater than the next element of the array, swap them.
+* Step 3 – If the current element is less than the next element, move to the next element.
+* Step 4 – Repeat Step 1 till the list is sorted.
+##
+
+### Bubble Sort Algorithm –
+    1.declare variables – i, j
+    2.loop : i = 0 to n – 1 // outer loop
+      1.loop : j = 0 to n -i- 1 // inner loop
+             1.if ( a[j]>a[j+1] ) then
+               1.swap a[j] & a[j+1]
+      2.  end loop // inner loop
+    3.end loop // outer loop
+##
+### Bubble Sort Complexity
+#### Time Complexity	 
+* Best: O(n)
+* Worst: O(n^2
+* Average: O(n2)
+* Space Complexit: O(1)
+* Stability: Yes
+##
+
+### Complexity in Detail
+* Bubble Sort compares the adjacent elements.
+	        
+    Cycle               Number of Comparisons  
+    1st	                (n-1)
+    2nd                       (n-2)
+    3rd                       (n-3)
+    .......                   .......
+    last                        1
+    
+* nce, the number of comparisons is
+
+* (n-1) + (n-2) + (n-3) +.....+ 1 = n(n-1)/2
+* nearly equals to n2
+
+* Hence, Complexity: O(n2)
+
+* Also, if we observe the code, bubble sort requires two loops. Hence, the complexity is n*n = n^2
+##
