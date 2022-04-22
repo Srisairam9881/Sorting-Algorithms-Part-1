@@ -27,10 +27,10 @@
           swap arr[min] with arr[i]  // swapping
     end for   // outer for loop
 ##
-### Time Complexity	 
-* Best:	       O(n2)
-* Worst:	       O(n2)
-* Average:	       O(n2)
+### Time Complexity	
+* Best:	       O(n^2)   
+* Worst:	       O(n^2)
+* Average:	       O(n^2)
 * Space Complexity:	O(1)
 * Stability:	       No
 ##
