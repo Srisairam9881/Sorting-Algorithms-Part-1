@@ -26,7 +26,7 @@ int main() {
     cin >> myarr[i];
   }
 
-  cout << "UNSORTED ARRAY: " << endl;
+  cout << "UNSORTED ARRAY: ";
   for (int i = 0; i < 5; i++) {
     cout << myarr[i] << "  ";
   }
@@ -34,7 +34,7 @@ int main() {
 
   selectionSort(myarr); // sorting actually happening
 
-  cout << "SORTED ARRAY: " << endl;
+  cout << "SORTED ARRAY: ";
   for (int i = 0; i < 5; i++) {
     cout << myarr[i] << "  ";
   }
