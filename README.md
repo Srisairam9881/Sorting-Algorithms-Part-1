@@ -134,6 +134,8 @@ Regular bubble sort runs iterations which are equal to the size of the array irr
            3.if flag == false then
              1.EXIT
      4.end loop // outer loop
+##
+
 ### Bubble Sort Complexity
 #### Time Complexity	 
 * Best: O(n)
