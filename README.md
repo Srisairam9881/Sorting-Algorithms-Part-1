@@ -35,7 +35,7 @@
 * Stability:	       No
 ##
 ### 
-   Cycle          Number of Comparison
+    Cycle          Number of Comparison
     1st	        (n-1)
     2nd	        (n-2)
     3rd	        (n-3)
