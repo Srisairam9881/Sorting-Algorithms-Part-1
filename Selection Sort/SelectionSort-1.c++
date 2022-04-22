@@ -40,3 +40,15 @@ int main() {
   }
   return 0;
 }
+/*
+output-1:
+Enter 5 integers in random order: 5 4 3 2 1
+UNSORTED ARRAY: 5 4 3 2 1
+SORTED ARRAY: 1 2 3 4 5
+
+output-2:
+Enter 5 integers in random order: 1 2 7 6 3
+UNSORTED ARRAY: 1 2 7 6 3
+SORTED ARRAY: 1 2 3 6 7
+
+*/
