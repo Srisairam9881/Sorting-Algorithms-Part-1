@@ -12,9 +12,15 @@
 * It has O(n^2) time complexity, making it inefficient on large lists.
 * The algorithm divides the input list into two parts: the sublist of items already sorted, which is built up from left to right at the front (left) of the list, and the * sublist of items remaining to be sorted that occupy the rest of the list.
 * Initially, the sorted sublist is empty and the unsorted sublist is the entire input list. The algorithm proceeds by finding the smallest (or largest, depending on sorting order) element in the unsorted sublist, exchanging (swapping) it with the leftmost unsorted element (putting it in sorted order), and moving the sublist boundaries one element to the right.
-##
+
+
+
+
+
 ![selection-sorting-featured-image](https://user-images.githubusercontent.com/80576654/164586593-0b3a149c-2f01-43f3-b043-7d5f8f0e09e5.jpg)
-##
+
+
+
 
 ### Selection Sort Algorithm –
        for i=0 to n-1   // outer for loop
@@ -26,7 +32,10 @@
      if min not equal to i then   // swap if min does not match to i
           swap arr[min] with arr[i]  // swapping
     end for   // outer for loop
-##
+
+
+
+
 ### Time Complexity	
 * Best:	       O(n^2)   
 * Worst:	       O(n^2)
@@ -50,9 +59,7 @@ Also, we can analyze the complexity by simply observing the number of loops. The
 #### The time complexity of the selection sort is the same in all cases. At every step, you have to find the minimum element and put it in the right place. The minimum      element is not known until the end of the array is not reached.
 
 #### Space Complexity:
-
-Space complexity is O(1) because an extra variable temp is used.
-##
+* Space complexity is O(1) because an extra variable temp is used.
 
 ### 
     Cycle          Number of Comparison
@@ -63,7 +70,6 @@ Space complexity is O(1) because an extra variable temp is used.
     ...	         ...
     last	          1
 * Number of comparisons: (n - 1) + (n - 2) + (n - 3) + ..... + 1 = n(n - 1) / 2 nearly equals to n2.
-##
 
 ### Selection Sort Applications
 #### The selection sort is used when
@@ -191,6 +197,40 @@ Regular bubble sort runs iterations which are equal to the size of the array irr
 
 
 
+# 4.Insertion Sort Algorithm with C++ Code | Sorting Algorithms | Data Structures & Algorithms
+### Insertion Sort :–
+* Insertion sort is a simple sorting algorithm that works the way we sort playing cards in our hands.
+* Insertion sort is a simple sorting algorithm that builds the final sorted array (or list) one item at a time.
+* Time Complexity: O(n*2)
+* Efficient for (quite) small data sets, much like other quadratic sorting algorithms
+* More efficient in practice than most other simple quadratic (i.e., O(n2)) algorithms such as selection sort or bubble sort
 
 
 
+![insertion-sorting-featured-image](https://user-images.githubusercontent.com/80576654/164602013-5dcaf47e-37af-4d6a-9869-7dfd370934ea.jpg)
+
+
+
+#### Working –
+null
+* Step 1 – Pick next element
+* Step 2 – Compare with all elements in the sorted sub-list on the left
+* Step 3 – Shift all the elements in the sorted sub-list that is greater than the
+* value to be sorted
+* Step 4 – Insert the value
+* Step 5 – Repeat until list is sorted
+
+#### Insertion Sort Algorithm :–
+     1.declare variables – i, key, j
+     2.loop : i = 1 to n – 1 // outer loop
+         1.key = a[i] //pick the next element
+         2.j = i – j; // decrement j value
+         3.loop : (j>=0 && a[j]>key) // inner loop
+            1.arr[j+1] = arr[j]
+            2.j = j – 1
+         4.end loop // outer loop
+         5. arr[j+1] = key
+     3.end loop // outer loop
+ ##
+ 
+ 
