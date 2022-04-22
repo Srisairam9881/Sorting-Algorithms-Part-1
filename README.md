@@ -207,7 +207,6 @@ Regular bubble sort runs iterations which are equal to the size of the array irr
 
 
 ### Working –
-null
 * Step 1 – Pick next element
 * Step 2 – Compare with all elements in the sorted sub-list on the left
 * Step 3 – Shift all the elements in the sorted sub-list that is greater than the
