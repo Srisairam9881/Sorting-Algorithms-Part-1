@@ -100,7 +100,6 @@ Space complexity is O(1) because an extra variable temp is used.
                1.swap a[j] & a[j+1]
       2.  end loop // inner loop
     3.end loop // outer loop
-##
 
 # 3.Optimized Bubble Sort Algorithm with C++ Code | Sorting Algorithms | Data Structures & Algorithms
 ### Optimized Bubble Sort –
